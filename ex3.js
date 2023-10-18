@@ -11,3 +11,12 @@ function clicPacman() {
   // actualizo el text content del nodo adecuado
   document.querySelector("#clics-pacman").textContent = numeroClicsPacman;
 }
+
+let numeroClicsGhost = 0;
+
+function clicGhost() {
+  //incremento la variable global clicsGhost
+  numeroClicsGhost++;
+  //actualizo el text content del nodo adecuado
+  document.querySelector("#clics-fantasma").textContent = numeroClicsGhost;
+}
